@@ -46,6 +46,13 @@ ul{
   border-radius: 5px;
 }
 
+@media only screen and (max-width: 600px) {
+    ul {
+        width:100%;
+        font-size: 0.7em;
+        padding: 0;
+    }
+}
 
 .unlist {
   width: 100%;
@@ -64,6 +71,8 @@ ul{
   border-radius: 4px;
   font-size: 15px;
 }
+
+
 
 .item:hover {
   padding: 0.5rem;
